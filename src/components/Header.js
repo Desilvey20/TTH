@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      {/* Top Header */}
+      
       <div className="Announcement ">
         <div className="container">
           <div className="row">
             <div className="col-md-6 d-flex align-items-center display-none">
               <p>+255 768 356 890</p>
-              <p>info@zpunet.com</p>
+              <p>info@theholistichub.com</p>
             </div>
             <div className=" col-12 col-lg-6 justify-content-center justify-content-lg-end d-flex align-items-center">
               <Link to="">
@@ -32,16 +32,16 @@ const Header = () => {
           </div>
         </div>
       </div>
-      {/* Header */}
+     
       <div className="header">
         <div className="container">
-          {/* MOBILE HEADER */}
+         
           <div className="mobile-header">
             <div className="container ">
               <div className="row ">
                 <div className="col-6 d-flex align-items-center">
                   <Link className="navbar-brand" to="/">
-                    <img alt="logo" src="/images/logo.png" />
+                    <img alt="logo" src="/images/" />
                   </Link>
                 </div>
                 <div className="col-6 d-flex align-items-center justify-content-end Login-Register">
@@ -70,28 +70,15 @@ const Header = () => {
                     <span className="badge">4</span>
                   </Link>
                 </div>
-                <div className="col-12 d-flex align-items-center">
-                  <form className="input-group">
-                    <input
-                      type="search"
-                      className="form-control rounded search"
-                      placeholder="Search"
-                    />
-                    <button type="submit" className="search-button">
-                      search
-                    </button>
-                  </form>
-                </div>
               </div>
             </div>
           </div>
 
-          {/* PC HEADER */}
           <div className="pc-header">
             <div className="row">
               <div className="col-md-3 col-4 d-flex align-items-center">
                 <Link className="navbar-brand" to="/">
-                  <img alt="logo" src="/images/logo.png" />
+                  <img alt="logo" src="/images/THH.png" />
                 </Link>
               </div>
               <div className="col-md-6 col-8 d-flex align-items-center">
